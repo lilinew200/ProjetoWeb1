@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Cadastrar-se</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            section {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+
+            label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+            input[type="text"],
+            input[type="password"],
+            input[type="email"] {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+            }
+
+            input[type="submit"] {
+                background-color: #333;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobrenos.html">Sobre Nós</a></li>
+                    <li><a href="cursos/informatica.html">Informática Básica</a></li>
+                    <li><a href="cursos/wordpress.html">Wordpress Básico</a></li>
+                    <li><a href="cursos/html.html">HTML Básico</a></li>
+                    <li><a href="cursos/webdesigner.html">Webdesigner Básico</a></li>
+                    <li><a href="cursos/linux.html">Linux Básico</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section  id="cadastro">
+            <h2>Cadastrar-se: </h2><br>
+            <form action="index.html" method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required><br><br>
+                
+                <input type="submit" value="Cadastrar">
+            </form>
+        </section>
+        <footer>
+            <p>&copy; 2023 Cursos Grátis</p>
+        </footer>
+    </body>
+</html>
